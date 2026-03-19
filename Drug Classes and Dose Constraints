@@ -1,0 +1,14 @@
+{
+  "drug_classes": {
+    "ACE_Inhibitors": ["Lisinopril", "Enalapril", "Ramipril"],
+    "Beta_Blockers": ["Metoprolol", "Atenolol", "Carvedilol"],
+    "Statins": ["Atorvastatin", "Simvastatin", "Rosuvastatin"]
+  },
+  "dose_rules": {
+    "Lisinopril": { "max_daily_mg": 40, "min_daily_mg": 5 },
+    "Metoprolol": { "max_daily_mg": 200, "min_daily_mg": 12.5 }
+  },
+  "incompatible_classes": [
+    ["ACE_Inhibitors", "ARBs"]
+  ]
+}
